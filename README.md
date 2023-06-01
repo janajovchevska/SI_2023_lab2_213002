@@ -2,15 +2,13 @@
 
 Control Flow Graph 
 
-![SI_lab2](https://github.com/janajovchevska/SI_2023_lab2_213002/assets/128175593/ce98189b-03ba-4743-95dd-ca25c23eb380)
-
-Цикломатска комплексност
+![CFG](images/cfg.png)
 
 Цикломатската комплексност на овој код е 11 и истата ја добив со броење на рагионите од Control Flow Graph-от, и ја потврдив со формулата за предикатни јазли+1.
 
 Тест случаи според критериумот Every Branch
 
-![image](https://github.com/janajovchevska/SI_2023_lab2_213002/assets/128175593/72dd3b6e-070f-4816-9906-cb60aef214f6)
+![EveryBranch](images/every_branch.png)
 
 
 -> Во сите тест случаи, листата на корисници (List<User> allUsers) вклучува два корисници и тоа со: username - markoA, password - skopje123!, email - mantovski@gmail.com и вториот корисник со username - ninah, password - sifinki?55, email - nina@gmail.com
@@ -27,7 +25,7 @@ Control Flow Graph
 
 Tест случаи според критериумот Multiple Condition
 
-![image](https://github.com/janajovchevska/SI_2023_lab2_213002/assets/128175593/1f3b1e8f-fc88-4493-9547-08338560e185)
+![MultipleCondition](images/multiple_condition.png)
 
 
 -> Во првиот тест случај првиот услов (user==null) ќе се исполни и ќе се фрли exception, не се важни останатите два
